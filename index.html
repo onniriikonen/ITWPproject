@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/basic.js" defer></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Weather App</title>
+</head>
+<body>
+  <header>
+    <h1>Weather App</h1>
+    <form class="menu">
+      <div class="input">
+        <input type="text" id="location-input" placeholder="Search for a location">
+        <button type="submit" id="search-button">Search</button>
+      </div>
+        <select id="unit-select">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+    </form>
+    <button id="location-button">Use my location</button>
+  </header>
+
+  <p id="error" style="display: none"></p>
+
+  
+  <section id="current-weather">
+    <div class="weather-now"></div>
+    <div class="weather-now2"></div>
+    <div class="weather-now3"></div>
+  </section>
+  
+  <section id="hourly-forecast">
+    <div class="weather-hourly"></div>
+    <div class="weather-hourly2"></div> 
+  </section>
+  
+  <section id="weekly-forecast">
+    <div class="weather-week"></div>
+    <div class="weather-week2"></div>
+  </section>
+  
+</body>
+</html>
