@@ -13,7 +13,7 @@ const hourlySection = document.getElementById("hourly-forecast");
 const weekSection = document.getElementById("weekly-forecast");
 const locationButton = document.getElementById("location-button")
 const apiKey = "9d5099095d74571ab7d3174acd4ca707";
-const apiKey2 = "2bebbee1676a4f798b0a8ff16ea52b51";
+const apiKey2 = "a98261316b1b45dcbb062b7b42f7a3f4";
 const apiKey3 = "010031plTbIxNDbyzwWJbZeCu2ywB7Zr";
 
 
